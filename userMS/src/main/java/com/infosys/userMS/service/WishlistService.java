@@ -1,3 +1,4 @@
+
 package com.infosys.userMS.service;
 
 
@@ -28,8 +29,4 @@ public class WishlistService {
 		
 		return "product is Successfuly added";
 	}
-//	@Override
-//	public List<Integer> getwishlist(Integer id) {
-//		List<Integer> list=wishlistrepository.findByBuyerId(id);
-//		return list;
-	}
+}

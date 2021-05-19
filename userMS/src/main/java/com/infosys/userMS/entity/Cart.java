@@ -1,3 +1,4 @@
+
 package com.infosys.userMS.entity;
 
 
@@ -47,5 +48,4 @@ public class Cart  {
 		this.quantity = quantity;
 	}
 
- 
-}
+ }

@@ -1,3 +1,4 @@
+
 package com.infosys.userMS.entity;
 
 import java.io.Serializable;

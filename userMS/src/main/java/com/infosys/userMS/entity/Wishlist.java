@@ -1,3 +1,4 @@
+
 package com.infosys.userMS.entity;
 
 
@@ -45,4 +46,3 @@ import javax.persistence.Table;
 		}
 	    
 	}
-

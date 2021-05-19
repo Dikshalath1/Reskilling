@@ -5,6 +5,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -28,6 +29,7 @@ public class ProductController {
 	@Autowired
 	ProductService productService;
 
+	@Autowired DiscoveryClient client;
 	// Fetches all product details
 	@GetMapping(value="/api/product", produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<ProductDTO> getAllProducts() throws Exception{
